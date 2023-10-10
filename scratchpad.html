@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		body {
+			font-family: Aptos;
+			margin: 0;
+		}
+		.fadein {
+			top: 10px;
+			position: relative;
+			margin: auto;
+			width: 30%;
+		}
+		img {
+			position: absolute;
+			border: 5px solid #80D0D8;
+			top: 0;
+
+			-webkit-animation-name: fade;
+			-webkit-animation-iteration-count: infinite;
+			-webkit-animation-duration: 12s;
+			animation-name: fade;
+			animation-iteration-count: infinite;
+			animation-duration: 12s;
+		}
+
+		@-webkit-keyframes fade {
+			0% {opacity: 0;}
+			20% {opacity: 1;}
+			33% {opacity: 1;}
+			53% {opacity: 0;}
+			100% {opacity: 0;}
+		}
+		@keyframes fade {
+			0% {opacity: 0;}
+			20% {opacity: 1;}
+			33% {opacity: 1;}
+			53% {opacity: 0;}
+			100% {opacity: 0;}
+		}
+
+		#f1 {
+			vertical-align: middle;
+		}
+		#f2 {
+			-webkit-animation-delay: -8s;
+			vertical-align: middle;
+		}
+		#f3 {
+			-webkit-animation-delay: -4s;
+			vertical-align: middle;
+		}
+	</style>
+</head>
+<body>
+	<div class="fadein">
+
+		<img id="f3" src="https://www.w3schools.com/howto/img_nature_wide.jpg" style="width:100%">
+
+		<img id="f2" src="https://www.w3schools.com/howto/img_snow_wide.jpg" style="width:100%">
+
+		<img id="f1" src="https://www.w3schools.com/howto/img_mountains_wide.jpg" style="width:100%">
+
+	</div>
+</body>
+</html>
