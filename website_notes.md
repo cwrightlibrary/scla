@@ -4,16 +4,16 @@
 - create consistency in fonts/colors
 - modernize elements
 
-## current ideas
+## ideas
 - no automatic downloading of pdfs
 
-## home page
-### navigation bar
+# home page
+## navigation bar
 
-### featured image
+## featured image
 the contrast between the image and the text is a strain, either a shadow under the image or a darker image in general would fix this
 
-### sidebar
+## sidebar
 > **figure 1**
 > 
 > ![fig_home_sidebar_announcements_digital_collection](https://github.com/cwrightlibrary/scla/blob/main/assets/website_notes/fig_/_home/_sidebar/_announcements_digital_collection.png?raw=true)
@@ -24,76 +24,76 @@ the contrast between the image and the text is a strain, either a shadow under t
 > 
 > it would be nice to see the sidebar in a gray box so that it's clearly separated from the main content
 
-### content
-#### 2023 scla conference - registration/conference program/etc. buttons
+## content
+### 2023 scla conference - registration/conference program/etc. buttons
 > **figure 2**
 > 
 > ![fig_home_content_2023_scla_conference_text_consistency](https://github.com/cwrightlibrary/scla/blob/main/assets/website_notes/fig_/_home/_content/_scla_conference_text_consistency.png?raw=true)
 > 
 > the first paragraph of text seems to be some kind of quote but it comes across as an inconsistency with the other paragraphs throughout the site. any combination of centering, italicizing, or adjusting font color would fix this. it might even work better to make the quote element smaller than the other text
 
-## about scla
-### about scla home
+# about scla
+## about scla home
 
-### history of the association
+## history of the association
 
-### executive officers
+## executive officers
 
-### governance
+## governance
 
-### finances
+## finances
 
-### meetings
+## meetings
 
-### south carolina libraries journal
-
-
-## join scla
+## south carolina libraries journal
 
 
-## organization
-### committees
-
-### interest groups
-
-### round tables
-
-### sections
+# join scla
 
 
-## get involved
-### advocacy
+# organization
+## committees
 
-### awards
+## interest groups
 
-### connect online
+## round tables
 
-### donate to scla
-
-### new members
-
-### past presidents group
-
-### volunteer
+## sections
 
 
-## job listings
+# get involved
+## advocacy
+
+## awards
+
+## connect online
+
+## donate to scla
+
+## new members
+
+## past presidents group
+
+## volunteer
 
 
-## conferences
-### conference registration
-
-### conference schedule 2023
-
-### 2023 scla conference schedule @ a glance
-
-### exhibits & sponsors
-
-### scla hotel information
-
-### past conferences
-
-### award winners
+# job listings
 
 
-## events
+# conferences
+## conference registration
+
+## conference schedule 2023
+
+## 2023 scla conference schedule @ a glance
+
+## exhibits & sponsors
+
+## scla hotel information
+
+## past conferences
+
+## award winners
+
+
+# events
