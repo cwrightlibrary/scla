@@ -11,7 +11,8 @@
 ## navigation bar
 
 ## featured image
-the contrast between the image and the text is a strain, either a shadow under the image or a darker image in general would fix this
+> ![featured image](https://github.com/cwrightlibrary/scla/blob/main/assets/website_notes/fig_/_home/_content/_featured_image.png?raw=true)
+> the contrast between the image and the text is a strain, either a shadow under the image or a darker image in general would fix this
 
 ## sidebar
 > #### announcements/digital collection design
@@ -30,7 +31,7 @@ the contrast between the image and the text is a strain, either a shadow under t
 > the first paragraph of text seems to be some kind of quote but it comes across as an inconsistency with the other paragraphs throughout the site. any combination of centering, italicizing, or adjusting font color would fix this. it might even work better to make the quote element smaller than the other text
 
 > #### buttons
-> ![sticky buttons](https://github.com/cwrightlibrary/scla/blob/main/assets/website_notes/fig_/_home/_content/_sticky_buttons.png?raw=true)
+> ![sticky buttons](https://github.com/cwrightlibrary/scla/blob/main/assets/website_notes/fig_/_home/_content/_sticky_buttons_text.png?raw=true)
 > the buttons look okay but it feels weird to have these buttons in what seems to be an article
 > i would also consider moving the text underneath the buttons somewhere else to separate it from the buttons because it feels like the text is a caption or something for the buttons
 
