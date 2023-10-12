@@ -34,6 +34,8 @@
 unless otherwise stated, the comments for an image correspond to the highlighted color in this order: 
 - orange
 - blue
+- purple
+- pink
 
 # home page
 ## featured image
@@ -118,4 +120,4 @@ unless otherwise stated, the comments for an image correspond to the highlighted
 > hate to say it again but it's just too long and would work better as a collapsible list.
 
 # job listings
-i won't include a screenshot of this because it's crazy long, but if we could create links for each job and just have a list of the links here we could free up some space
+i won't include a screenshot of this because it's crazy long, but if we could create links for each job and just have a list of the links here we could free up some spaces
