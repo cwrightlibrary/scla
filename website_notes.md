@@ -34,8 +34,6 @@
 unless otherwise stated, the comments for an image correspond to the highlighted color in this order: 
 - orange
 - blue
-- purple
-- pink
 
 # home page
 ## featured image
