@@ -1,75 +1,80 @@
+<!--
+	--  colors  --
+	yellow: fac41f
+	orange: f67d55
+	pink  : d62278
+	purple: d62278
+	dblue : 398388
+	teal  : 00c5cc
+	-- https://www.w3schools.com/howto/howto_js_slideshow.asp --
+-->
+
 <!DOCTYPE html>
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style>
-		* {
-			box-sizing: border-box;
-		}
-		body {
-			font-family: Aptos;
-			margin: 0;
-		}
-		.fadein {
-			top: 10px;
+		* {box-sizing: border-box;}
+		.slideshow-container {
+			max-width: 1000px;
 			position: relative;
 			margin: auto;
-			width: 30%;
-			min-width: 720px;
 		}
-		img {
+		.slides {
+			display: none;
+		}
+		.next, .prev {
+			cursor: pointer;
 			position: absolute;
-			border: 5px solid #80D0D8;
-			border-radius: 20px;
-			top: 0;
-
-			-webkit-animation-name: fade;
-			-webkit-animation-iteration-count: infinite;
-			-webkit-animation-duration: 24s;
-			animation-name: fade;
-			animation-iteration-count: infinite;
-			animation-duration: 12s;
+			top: 50%;
+			width: auto;
+			margin-top: -22px;
+			padding: 16px;
+			color: white;
+			font-weight: bold;
+			font-size: 18px;
+			transition: 0.6s ease;
+			border-radius: 0 3px 3px 0;
+			user-select: none;
 		}
-
-		@-webkit-keyframes fade {
-			0% {opacity: 0;}
-			20% {opacity: 1;}
-			33% {opacity: 1;}
-			53% {opacity: 0;}
-			100% {opacity: 0;}
+		h1, h2, p {
+			font-family: 'Aptos';
+			color: white;
 		}
-		@keyframes fade {
-			0% {opacity: 0;}
-			20% {opacity: 1;}
-			33% {opacity: 1;}
-			53% {opacity: 0;}
-			100% {opacity: 0;}
+		#box1 {
+			margin: 10px;
+			padding: 10px;
+			width: 700px;
+			height: 250px;
+			background-color: #d62278;
 		}
-
-		#f1 {
-			vertical-align: middle;
-		}
-		#f2 {
-			-webkit-animation-delay: -8s;
-			vertical-align: middle;
-			animation-delay: -8s;
-		}
-		#f3 {
-			-webkit-animation-delay: -4s;
-			vertical-align: middle;
-			animation-delay: -4s;
+		#box2 {
+			margin: 10px;
+			padding: 10px;
+			width: 700px;
+			height: 250px;
+			background-color: #398388;
 		}
 	</style>
 </head>
 <body>
-	<div class="fadein">
-
-		<img id="f3" src="https://raw.githubusercontent.com/cwrightlibrary/scla/main/assets/scholarship.png" style="width:100%">
-
-		<img id="f2" src="https://raw.githubusercontent.com/cwrightlibrary/scla/main/assets/ifc_statement.png" style="width:100%">
-
-		<img id="f1" src="https://raw.githubusercontent.com/cwrightlibrary/scla/main/assets/book_resumes.png" style="width:100%">
-
+	<div class="slideshow-container">
+		<div class="slides fade">
+			<div id="box1">
+				<h1>Betsy Gomez, ALA Office of Intellectual Freedom</h1>
+				<h2>Tuesday October 17th - Opening Session 1 p.m.  Richland A&B</h2>
+				<p>Betsy Gomez is a publishing professional with more than two decades of experience as an editor, writer, content developer, designer, and project manager for various print and web-based projects. She has an extensive background in working with organizations and coalitions that specialize in defending intellectual freedom, such as the Comic Book Legal Defense Fund, the Banned Books Week Coalition, and the Media Coalition.  She currently coordinate various public outreach initiatives for the ALA Office of Intellectual Freedom, which includes developing and managing digital assets and social media accounts to increase public awareness about the work of the office. Through the use of digital media and public-facing programs, she promotes such projects as ALA’s Top Ten Most Challenged Books list, Banned Books Week, and Unite Against Book Bans.</p>
+			</div>
+		</div>
+		<div class="slides fade">
+			<div id="box2">
+				<h1>Sonia Alcántara-Antoine, CEO of Baltimore County Public Library (MD) & PLA President</h1>
+				<h2>Wednesday, October 18th - General Session Luncheon  12 p.m.  Richland A&B</h2>
+				<p>Sonia Alcántara-Antoine is the CEO of Baltimore County Public Library (MD) and is the president of the Public Library Association.  She was named as one of the Top 100 Women in Maryland.  Previously she was director of Newport News Public Library (VA), and held leadership positions at Virginia Beach Public Library (VA) and Enoch Pratt Free Library (MD).  Sonia is an American Library Association Spectrum Scholar, and holds a Master’s degree in Library and Information Science from Florida State University and a Master’s degree in Public Administration from Old Dominion University.</p>
+			</div>
+		</div>
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="prev" onclick="plusSlides(1)">&#10095;</a>
 	</div>
 </body>
 </html>
