@@ -16,11 +16,12 @@
 	<style>
 		* {box-sizing: border-box;}
 		.slideshow-container {
-			max-width: 1000px;
+			height: 400px;
 			position: relative;
 			margin: auto;
+			width: 50%;
 		}
-		.slides {
+		.slides, .slides2 {
 			display: none;
 		}
 		.next, .prev {
@@ -28,8 +29,8 @@
 			position: absolute;
 			top: 50%;
 			width: auto;
-			margin-top: -22px;
 			padding: 16px;
+			margin-top: -22px;
 			color: white;
 			font-weight: bold;
 			font-size: 18px;
@@ -37,28 +38,51 @@
 			border-radius: 0 3px 3px 0;
 			user-select: none;
 		}
+		.next {
+			right: 0;
+			border-radius: 3px 0 0 3px;
+		}
+		.next:hover, .prev:hover {
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+		.fade {
+			animation-name: fade;
+			animation-duration: 1.5s;
+		}
+		@keyframes fade {
+			from {opacity: .4}
+			to {opacity: 1}
+		}
 		h1, h2, p {
 			font-family: 'Aptos';
 			color: white;
 		}
+		#box1, #box2, #box3, #box4, #box1b, #box2b, #box3b, #box4b, #box5b, #box6b, #box7b, #box8b, #box9b {
+			margin: auto;
+			padding: 5px 55px;
+			width: auto;
+			height: auto;
+		}
 		#box1 {
-			margin: 10px;
-			padding: 10px;
-			width: 700px;
-			height: 250px;
 			background-color: #d62278;
 		}
 		#box2 {
-			margin: 10px;
-			padding: 10px;
-			width: 700px;
-			height: 250px;
 			background-color: #398388;
+		}
+		#box3 {
+			background-color: #f67d55
+		}
+		#box4 {
+			background-color: #00c5cc
+		}
+		.title {
+			color:#f67d55;
 		}
 	</style>
 </head>
 <body>
 	<div class="slideshow-container">
+		<h1 class="title">Special Guest Speakers</h1>
 		<div class="slides fade">
 			<div id="box1">
 				<h1>Betsy Gomez, ALA Office of Intellectual Freedom</h1>
@@ -73,8 +97,119 @@
 				<p>Sonia Alcántara-Antoine is the CEO of Baltimore County Public Library (MD) and is the president of the Public Library Association.  She was named as one of the Top 100 Women in Maryland.  Previously she was director of Newport News Public Library (VA), and held leadership positions at Virginia Beach Public Library (VA) and Enoch Pratt Free Library (MD).  Sonia is an American Library Association Spectrum Scholar, and holds a Master’s degree in Library and Information Science from Florida State University and a Master’s degree in Public Administration from Old Dominion University.</p>
 			</div>
 		</div>
+		<div class="slides fade">
+			<div id="box3">
+				<h1>Dave Ingram, Founder of Querri</h1>
+				<h2>Thursday, October 18th - Big Ideas!"  Opening Session  9 a.m.  Richland A&B</h2>
+				<p>Dave Ingram is a long-time software developer and manager with a passion for finding practical uses of the latest technologies. Dave is currently working on a new start up called Querri, making heavy use of LLMs for data cleaning and management. He is also the organizer of the Data Science and VR/AR meetups that meet regularly at the CDC.</p>
+			</div>
+		</div>
+		<div class="slides fade">
+			<div id="box4">
+				<h1>Antjuan Seawright, CBS News Political Contributor, & Founder & CEO of Blueprint Strategy LLC</h1>
+				<h2>Thursday, October 19th - General Session Luncheon  12 p.m.  Richland A&B</h2>
+				<p>Antjuan Seawright is the founder and CEO of Blueprint Strategy LLC, a public relations, advertising, and political consulting firm based in South Carolina. He is a 2008 graduate of Winthrop University, where he received a Bachelor of Science degree in Business Administration and Marketing and a 2010 graduate of Webster University where he received his Master’s degree in Business Administration (MBA). Seawright is also a graduate of the Congressional Black Caucus Institute for Political Education and Leadership Training.  He advised the 2008 and 2016 Presidential Campaigns for Hillary Clinton. He has advised as the Democratic Senatorial Campaign Committee (DSCC), South Carolina Democratic Party, Georgia State Democratic Party, New York State Democratic Party and the South Carolina State Senate Democratic Caucus and Protecting Our Vote (Democratic Super PAC). He served as Senior Advisor the Democratic National Committee (DNC) for the 2020 election cycle. Seawright served as Senior Advisor to the Democratic Congressional Campaign Committee (DCCC) for the 2020 and 2022 election cycles.  Seawright is a CBS News political contributor, and he is also an opinion writer for The Hill, BuzzFeed News, BET News.com and The Christian Recorder. He also hosts “Insight with Antjuan Seawright” a weekly public affairs radio show based in South Carolina.</p>
+			</div>
+		</div>
 		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-		<a class="prev" onclick="plusSlides(1)">&#10095;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		<h1 class="title">Special Events</h1>
+		<div class="slides2 fade">
+			<div id="box1b">
+				<h1>SCLA Membership Meeting</h1>
+				<h2>12-1 p.m., Tuesday, October 17th</h2>
+				<p>Lexington B @ Columbia Metropolitan Convention Center</p>
+			</div>
+		</div>
+		<div class="slides2 fade">
+			<div id="box2b">
+				<h1>Happy Learning Hour</h1>
+				<h2>5:30 -7:30 p.m., Tuesday, October 17th  @ Richland Library Main (1431 Assembly Street)</h2>
+				<p>Join us for food, drinks, and trivia at the Happy Learning Hour at Richland Library</p>
+				<p>Sponsored by Richland Library & the South Carolina Association of Public Library Administrators (SCAPLA)</p>
+			</div>
+		</div>
+		<div class="slides2 fade">
+			<div id="box3b">
+				<h1>SCLA Social</h1>
+				<h2>8:30 p.m., Wednesday, October 18th @ Bourbon (1214 Main Street)</h2>
+				<p>Relax with your SCLA Conference colleagues for an evening of fun and great conversation at Bourbon, a whiskey bar and Cajun-Creole restaurant specializing in bourbon, whiskey, craft cocktails and the flavors of the Louisiana Bayou.  Bourbon is housed in the historic Brennen Building, capturing the warm, rustic feel of an upscale saloon from 1900 with exposed plaster walls, reclaimed wood, glass chandeliers, and custom wallpaper. High back booths give patrons privacy, while the communal tables encourage sharing and making new friends.  Renew friendships and make new ones that will last a lifetime over perfect drink at Bourbon.</p>
+			</div>
+		</div>
+		<div class="slides2 fade">
+			<div id="box4b">
+				<h1>Scholarship for Diversity in Librarianship: Silent Auction</h1>
+				<h2>Tuesday, October 17th & Wednesday, October 18th @ Columbia Metropolitan Convention Center</h2>
+				<p>Once again, the Scholarship for Diversity in Librarianship Committee will hold its popular SILENT AUCTION fundraiser! All proceeds benefit the scholarship, which is conferred annually.</p>
+				<p>Sponsor: Scholarship for Diversity in Librarianship</p>
+			</div>
+		</div>
+		<div class="slides2 fade">
+			<div id="box5b">
+				<h1>Vendor Marketplace</h1>
+				<h2>Tuesday, October 17th & Wednesday, October 18th @ Columbia Metropolitan Convention Center</h2>
+				<p>Reasons to visit our vendors at the Conference other than for the FREEBIES & SWAG.</p>
+				<ul>
+					<li>Nothing more clearly reflects the future than what vendors choose to display or offer.</li>
+					<li>Informal conversations can lead to product improvements or even new ones.</li>
+					<li>Vendors will share innovative and creative way others are using their products.</li>
+					<li>Get opportunities to use paid apps for free, become a beta tester, be invited to vendor sponsored activities, and to "insider" access to products and services.</li>
+				</ul>
+			</div>
+		</div>
+		<div class="slides2 fade">
+			<div id="box6b">
+				<h1>Break Tradition by Visiting the Non-Stop Poster Session Zone</h1>
+				<h2>Wednesday, October 18th @ Columbia Metropolitan Convention Center</h2>
+				<p>We are breaking with tradition this year.  Rather than have one “poster session,” like the traditional early morning of the last day, we are having a “Non-Stop Poster Session Zone.”  During the conference there will be a three table “Non-Stop Poster Session Zone” near Registration for a series of poster sessions.  The Non-Stop Poster Session will give attendees a chance to discover something new between regular sessions, during a break, or as an option to attending a regular session.  Presenters will have the opportunity to be seen by more attendees and share their work and insights.</p>
+			</div>
+		</div>
+		<div class="slides2 fade">
+			<div id="box7b">
+				<h1>USC SLIS Alumni Reception</h1>
+				<h2>5‐6 p.m., Wednesday, October 18th Hall of Fame Room @ Columbia Metropolitan Convention Center</h2>
+				<p>USC SCLIS alumni are invited to relax and catch up with old friends and make new ones at the Alumni Reception.  Hear what is ahead for SLIS in the coming year over champagne and hors d’oeuvres.</p>
+				<p>Sponsored by USC’s School of Library and Information Science (SLIS)</p>
+			</div>
+		</div>
+		<div class="slides2 fade">
+			<div id="box8b">
+				<h1>Mid-Autumn Festival: All Conference Reception</h1>
+				<h2>7-9 p.m., Wednesday, October 18th @ M Space in the Vista (530 Lady Street, Suite A)</h2>
+				<p>Join us for this year's All Conference Reception as we celebrate Mid-Autumn Festival!  Also known as the Moon Festival, this holiday is celebrated by those of Southeast Asian descent around the world on the 15th day of the eighth lunar month. We will enjoy eating moon cakes, making paper lanterns and watching students perform a traditional Chinese fan dance. We welcome all to celebrate the most important aspect of this holiday: coming together with friends. Performances will begin at 7:30 p.m.</p>
+				<p>Sponsored by EBSCO</p>
+			</div>
+		</div>
+		<div class="slides2 fade">
+			<div id="box9b">
+				<h1>SCLA Social</h1>
+				<h2>8:30 p.m., Wednesday, October 18th @ Bourbon (1214 Main Street)</h2>
+				<p>Relax with your SCLA Conference colleagues for an evening of fun and great conversation at Bourbon, a whiskey bar and Cajun-Creole restaurant specializing in bourbon, whiskey, craft cocktails and the flavors of the Louisiana Bayou.  Bourbon is housed in the historic Brennen Building, capturing the warm, rustic feel of an upscale saloon from 1900 with exposed plaster walls, reclaimed wood, glass chandeliers, and custom wallpaper. High back booths give patrons privacy, while the communal tables encourage sharing and making new friends.  Renew friendships and make new ones that will last a lifetime over perfect drink at Bourbon.</p>
+			</div>
+		</div>
 	</div>
+	<script>
+		let slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+			showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+			showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+			let i;
+			let slides = document.getElementsByClassName("slides");
+			if (n > slides.length) {slideIndex = 1}
+			if (n < 1) {slideIndex = slides.length}
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			slides[slideIndex - 1].style.display = "block"
+		}
+	</script>
 </body>
 </html>
