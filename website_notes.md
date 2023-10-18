@@ -2,6 +2,7 @@
 ## table of contents
 - [scla notes](#scla-notes)
 	- [table of contents](#table-of-contents)
+ 	- [updates](#updates)
 	- [goals](#goals)
 	- [ideas](#ideas)
 	- [notes on formatting](#notes-on-formatting)
@@ -21,6 +22,9 @@
 	- [advocacy](#advocacy)
 	- [awards](#awards)
 - [job listings](#job-listings)
+
+## updates
+- 10/18/2023: **I CANNOT USE JAVASCRIPT OR EVEN SLIGHT CUSTOMIZATIONS WITH CSS**, in other words we're wildly limited on what we can do.
 
 ## goals
 - trim down bloated pages of text
