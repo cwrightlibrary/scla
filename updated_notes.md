@@ -1,34 +1,22 @@
-# SCLA Website Notes
+# SCLA Website Organization/Design
 
-## [Home Page Main](https://www.scla.org/)
+## Overview
 
-### Colors/Theme
-Something I think would look good is to darken the menu bar, the white text and light blue are hard to read. Also, if we can stop the menu bar from going all the way across the screen, the site might look a little more modern.
+Overall, the site is good thematically. I think that it would look a lot nicer if it were just organized better (or if we used a different host altogether). When I recommend moving widgets or text, I'll include exactly where the information is coming from and where I'd prefer it go instead.
 
-![SCLA](assets/image-1.png)
+## Notes
 
-Above is SCLA's website showing the color issues, below is the WLA's website, which looks much cleaner.
+Because I can't use any custom HTML, CSS, or JavaScript, I've been experimenting with other options and looking into the [MemberClicks Support](https://help.memberclicks.com/hc/en-us/sections/14749834181645-Article-and-Page-Editing) page and found that we can still use [Slider images](https://help.memberclicks.com/hc/en-us/articles/15442887132941-Slider-Images) on the site. However, when I follow the guide on creating slider images, the preview doesn't show if it's working or not, it just shows all of the images. So I'm not sure I can tell if the slider images will work until it's published to the site; it's a shame MemberClicks won't allow us to make changes to the site to see how it looks and works without publishing it.
 
-![WLA](assets/image.png)
+## My Recommendations
 
----
+*Outside of finding new membership solution software...*
 
-Another thing that sticks out is the strange coloring on the first block of text. The blue text doesn't match the rest of the site and the fonts/colors in the *"ACT NOW TO STAY INFORMED"* image are mismatched from our theme.
+### Pie-in-the-sky
 
-![Strange colors](assets/image-2.png)
+**Reorganize the entire site by moving widgets, articles, etc. to different tabs in the menu bar.** My recommendations would look something like this:
 
-I also think it would look good to change the *">> Click here to Sign up for Library Advocacy Alerts <<"* button would look better as an actual button instead of the link.
+- 
 
----
+### Realistic
 
-The theming looks good for the rest of **Home Page Main** but I'd like to change the bulletpoint quote from the *SCLA Statement on Censorship* to a dash.
-
-![Alt text](assets/image-3.png)
-
-### My Suggestions
-
-#### Wishes
-
-#### Realistic
-
-## Organization
